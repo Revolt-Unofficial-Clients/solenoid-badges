@@ -34,11 +34,17 @@ git submodule update --remote
 ```json
 [
     {
-        "id": [], // User IDs
-        "title": "", // Badge Name
-        "bkg": "", // Badge Background
-        "colour": "", // Badge Foreground
-        "url": "" // CORS Enabled Image/Gif URL
+        "id": [],
+        "title": "",
+        "bkg": "",
+        "colour": "",
+        "url": ""
     }
 ]
 ```
+
+`id`: User IDs
+`title`: Badge Name
+`bkg`: Badge Background
+`colour`: Badge Foreground
+`url`: CORS Enabled Image/Gif URL
